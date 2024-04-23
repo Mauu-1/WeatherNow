@@ -1,0 +1,109 @@
+.weatherInfo{
+  position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.layout{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    
+}
+.header{
+  font-size: 30pt;
+  padding-bottom: 100px;
+}
+.home{
+  
+  background-color: rgba(67, 118, 108,.36);
+}
+h4{
+    font-size: 30pt;
+    font-weight: 425;
+    
+}
+form{
+    margin-top: 35px;
+}
+
+.box{
+    width: 100%;
+    background-color: rgba(67, 118, 108,.36);
+}
+img{
+    width: 235px;
+    height: 200px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.thermometers{
+    width: 65px;
+    height: 65px;
+}
+.checkWeather{
+  background-color: #F8FAE5!important;
+  color: black;
+  border: 0;
+}
+
+/* body{
+    background-image: url('/assets/back.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+} */
+
+
+
+
+
+
+/* Old version */
+/* .weather-info-container  {
+  
+    
+    height: 100vh;
+    
+}
+.weather-info-container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(214, 218, 200, .7);
+    
+}
+.weather-info-container .layout {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-info-container h4 {
+    font-size: 30pt;
+    font-weight: 100;
+}
+
+.weather-info-container form {
+    margin-top: 35px;
+}
+
+
+
+.weather-info-container img {
+    width: 235px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-info-container .thermometers {
+    width: 65px;
+    height: 65px;
+} */
